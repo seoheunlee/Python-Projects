@@ -1,22 +1,20 @@
-Seoul Subway Line 2 Ridership Visualization
-This project visualizes the ridership trends of Seoul Subway Line 2 from 2019 to 2024, highlighting the impact of the COVID-19 pandemic. An interactive map displays each station using markers whose size and green color intensity reflect total passenger counts. A slider allows you to explore changes year by year.
+# Seoul Subway Line 2 Ridership Visualization
 
-Features
-Animated Map: Explore year-by-year changes with an interactive slider.
+This project visualizes yearly passenger data for Seoul Subway Line 2 from 2019 to 2024, highlighting how ridership changed during the COVID-19 pandemic. By merging station coordinates with passenger statistics, it generates an interactive map in Plotly, allowing you to explore changes in passenger volumes over time.
 
-Visual Encoding: Marker size and green color gradient indicate ridership levels.
+## Data Sources
+- **Seoul Metro Passenger Data (Open License)**  
+  Yearly boarding/alighting counts per station.
+- **Station Coordinates Data (Excel file)**  
+  Latitude and longitude for each station, mapped with English names.
 
-Station Labels: Clear short codes label each station.
+## Features
+- **Animated Map**: Use a slider to explore ridership trends by year (2019–2024).
+- **Marker Size & Color**: Stations with higher passenger counts appear larger and in a deeper green color.
+- **Station Short Codes**: Each station is labeled with a concise short code for quick reference.
+- **Pandemic Effect**: Observe how ridership shifted during the COVID-19 period.
 
-How to Run
-Install dependencies:
-
-bash
-복사
-pip install pandas plotly openpyxl
-Run the script or notebook to generate the interactive map.
-
-Data Sources
-Seoul Metro Passenger Data (Open License)
-
-Station Coordinates Data (Excel file)
+## How to Run
+1. **Install dependencies**:
+   ```bash
+   pip install pandas plotly openpyxl
