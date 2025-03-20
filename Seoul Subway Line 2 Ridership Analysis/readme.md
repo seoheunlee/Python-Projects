@@ -5,8 +5,11 @@ This project visualizes yearly passenger data for Seoul Subway Line 2 from 2019 
 ## Data Sources
 - **Seoul Metro Passenger Data (Open License)**  
   Yearly boarding/alighting counts per station.
+  <https://www.data.go.kr/data/15071921/fileData.do>
+  
 - **Station Coordinates Data (Excel file)**  
   Latitude and longitude for each station, mapped with English names.
+<https://www.data.go.kr/data/15099316/fileData.do?recommendDataYn=Y#/layer_data_infomation>
 
 ## Features
 - **Animated Map**: Use a slider to explore ridership trends by year (2019–2024).
